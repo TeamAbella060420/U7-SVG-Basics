@@ -41,4 +41,24 @@ inner-circle {
   stroke-width: 8;
 }
 
+@media only screen and (min-width: 30em) {
+  .inner-circle {
+    stroke-opacity: 1;
+  }
+}
+
+@media only screen and (min-width: 40em) {
+  .outer-circle {
+    stroke-opacity: 1;
+  }
+  .star {
+    stroke-width: 4;
+  }
+}
+@media only screen and (min-width: 64em) {
+  .star-point {
+    opacity: 1;
+  }
+}
+
 
